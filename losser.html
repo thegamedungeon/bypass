@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agent 01101 Bypass</title>
+</head>
+<body style="background-color: black; color: cyan; font-family: sans-serif; text-align: center;">
+
+    <h2>The Mansion Entry Points</h2>
+    <hr>
+
+    <p>Try to force the Real Moto Launcher:</p>
+    <a href="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.HOME;component=com.motorola.launcher3/com.android.launcher3.Launcher;end" 
+       style="color: yellow; font-weight: bold;">[ LAUNCH MOTO HOME ]</a>
+
+    <br><br>
+
+    <p>Try to teleport directly to Home Settings:</p>
+    <a href="intent:#Intent;action=android.settings.HOME_SETTINGS;end" 
+       style="color: yellow; font-weight: bold;">[ OPEN HOME SETTINGS ]</a>
+
+    <br><br>
+
+    <p>Force the phone to ask 'Which Home App?':</p>
+    <a href="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.HOME;launchFlags=0x10200000;end" 
+       style="color: yellow; font-weight: bold;">[ FORCE HOME PICKER ]</a>
+
+    <hr>
+    <p style="font-size: 0.8em;">If these don't work, the 'oink oink' bot is blocking intents.</p>
+
+</body>
+</html>
